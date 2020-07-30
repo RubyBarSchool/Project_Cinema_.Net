@@ -130,17 +130,17 @@
                     <div class="dropdown">
                         <button class="dropbtn">Phim</button>
                         <div class="dropdown-content">
-                            <a href="/View/Account/NowShowing.aspx">Phim Đang Chiếu</a>
-                            <a href="/View/Account/FutureShowing.aspx">Phim Sắp Chiếu</a>
+                            <a href="/View/Moives/NowShowing.aspx">Phim Đang Chiếu</a>
+                            <a href="/View/Moives/FutureShowing.aspx">Phim Sắp Chiếu</a>
                         </div>
                     </div>
 
                     <div class="dropdown">
                         <button class="dropbtn">Rạp CGV</button>
                         <div class="dropdown-content">
-                            <a href="/View/Account/AllTheart.aspx">Tất Cả Các Rạp</a>
-                            <a href="/View/Account/SpecialTheart.aspx">Rạp Đặc Biệt</a>
-                            <a href="/View/Account/OpentCommingSoon.aspx">Rạp Sắp Mở</a>
+                            <a href="/View/Theart/AllTheart.aspx">Tất Cả Các Rạp</a>
+                            <a href="/View/Theart/SpecialTheart.aspx">Rạp Đặc Biệt</a>
+                            <a href="/View/Theart/OpentCommingSoon.aspx">Rạp Sắp Mở</a>
                         </div>
                     </div>
                 </div>
