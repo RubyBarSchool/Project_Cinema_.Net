@@ -1,17 +1,22 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ProjectCSharpCGV.SiteMaster" %>
 
-<link href="Content/colobox.css" rel="stylesheet" />
-<link href="Content/custom-cgv.css" rel="stylesheet" />
-<link href="Content/g-erp-cgv.css" rel="stylesheet" />
-<link href="Content/madisonisland.css" rel="stylesheet" />
-<link href="Content/style.css" rel="stylesheet" />
-<link href="Content/hoanganh.css" rel="stylesheet" />
 <!DOCTYPE html>
 
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Content/colobox.css" rel="stylesheet" />
+    <link href="Content/custom-cgv.css" rel="stylesheet" />
+    <link href="Content/g-erp-cgv.css" rel="stylesheet" />
+    <link href="Content/madisonisland.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
+    <link href="Content/hoanganh.css" rel="stylesheet" />
+    <!-- insert css -->
+    <asp:ContentPlaceHolder ID="plCss" runat="server">
+        `
+    </asp:ContentPlaceHolder>
+    <!-- End css -->
     <title><%: Page.Title %> - My ASP.NET Application</title>
 
     <asp:PlaceHolder runat="server">
@@ -162,13 +167,12 @@
 
 
 
-        <form runat="server" id="form1">
+
             <!-- Body -->
             <asp:ContentPlaceHolder ID="contentBody" runat="server">
                 `
             </asp:ContentPlaceHolder>
             <!-- End body -->
-        </form>
 
 
 
