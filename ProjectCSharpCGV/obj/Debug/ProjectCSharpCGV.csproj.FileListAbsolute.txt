@@ -1,0 +1,306 @@
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll.config
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.pdb
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe.config
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.rsp
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.exe
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.rsp
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.AppContext.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Collections.Immutable.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.rsp
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.jQuery.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.Web.Infrastructure.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\WebGrease.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.xml
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.xml
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.pdb
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreCompileInputs.cache
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
+D:\Tai_Lieu_FPT\Tai_lieu_ki_5\PEC#\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll.config
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.pdb
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe.config
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.rsp
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.exe
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.rsp
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.AppContext.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Collections.Immutable.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.rsp
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.jQuery.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.Web.Infrastructure.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\WebGrease.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.xml
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.xml
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.pdb
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreCompileInputs.cache
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
+D:\Tài Liệu Kỳ 5\PRN292\Demo\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll.config
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.pdb
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe.config
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.rsp
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.exe
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.rsp
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.AppContext.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.rsp
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\WebGrease.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.xml
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.xml
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.pdb
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
+C:\Users\lenovo\Desktop\insertCGV\ProjectCSharpCGV\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll.config
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.pdb
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe.config
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.rsp
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.exe
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.rsp
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.AppContext.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Collections.Immutable.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Reflection.Metadata.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.rsp
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.bootstrap.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.jQuery.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.WebForms.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.Web.Infrastructure.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\WebGrease.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.xml
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.xml
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.pdb
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreCompileInputs.cache
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
+D:\FPT_University\Semester5\C#\Project\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll.config
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.pdb
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe.config
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.rsp
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.exe
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.rsp
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.AppContext.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Collections.Immutable.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.rsp
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.jQuery.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.Web.Infrastructure.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\WebGrease.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.xml
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.xml
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.pdb
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreCompileInputs.cache
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
+D:\Tài Liệu Kỳ 5\PRN292\project3\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll.config
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\ProjectCSharpCGV.pdb
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.exe.config
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csc.rsp
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.exe
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\csi.rsp
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.AppContext.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\vbc.rsp
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\WebGrease.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\System.Web.Optimization.xml
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Newtonsoft.Json.xml
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Antlr3.Runtime.pdb
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
+C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb

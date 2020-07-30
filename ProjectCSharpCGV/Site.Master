@@ -1,0 +1,260 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ProjectCSharpCGV.SiteMaster" %>
+
+<link href="Content/colobox.css" rel="stylesheet" />
+<link href="Content/custom-cgv.css" rel="stylesheet" />
+<link href="Content/g-erp-cgv.css" rel="stylesheet" />
+<link href="Content/madisonisland.css" rel="stylesheet" />
+<link href="Content/style.css" rel="stylesheet" />
+<link href="Content/hoanganh.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        .dropbtn {
+            background-color: #F8F9FA;
+            color: black;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #F8F9FA;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #F8F9FA;
+        }
+
+
+        p {
+            text-align: right;
+            color: black;
+            font-size: large;
+        }
+
+        #footer {
+            background-color: #F8F9FA;
+            color: black;
+            font-family: Adobe Caslon Pro Bold;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body class=" catalog-category-view categorypath-now-showing category-now-showing" style="">
+    <%--header--%>
+    <%--Account--%>
+    <div class="page">
+        <%-- the a dang ki dang nhap--%>
+        <div>
+            <a href="/View/Account/Login.aspx" class="topskip-link skip-account">
+                <span class="label" style="color: black">Đăng nhập</span>
+            </a>
+            <span>/</span>
+            <a href="/View/Account/Register.aspx" class="topskip-link skip-account">
+                <span class="label" style="color: black">Đăng ký</span>
+            </a>
+        </div>
+        <header id="header" class="page-header">
+            <div class="page-header-container" style="width: 100%">
+                <a class="logo" href="/Default.aspx">
+                    <img src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo.png" alt="CGV Cinemas" class="large">
+                    <img src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo-small.png" alt="CGV Cinemas" class="small">
+                </a>
+                <!-- Navigation -->
+                <div id="header-nav" class="skip-content">
+                    <nav id="nav">
+                        <ol class="nav-primary">
+                            <li class="level0 nav-1 first active last parent"><a href="#" class="level0 has-children">Phim</a><ul class="level0">
+                                <li class="level1 nav-1-1 first active"><a href="https://www.cgv.vn/default/movies/now-showing.html" class="level1 ">Phim Đang Chiếu</a></li>
+                                <li class="level1 nav-1-2 last"><a href="https://www.cgv.vn/default/movies/coming-soon-1.html" class="level1 ">Phim Sắp Chiếu</a></li>
+                            </ul>
+                            </li>
+                            <li class="level0 nav-2 parent first last">
+                                <a class="level0 has-children" href="javascript: void(0);">Rạp CGV</a>
+                                <ul class="level0">
+                                    <li class="level1 nav-3-1 last">
+                                        <a class="level1" href="https://www.cgv.vn/default/cinox/site/">Tất Cả Các Rạp</a>
+                                    </li>
+                                    <li class="level1 nav-3-2 last">
+                                        <a class="level1" href="https://www.cgv.vn/default/theaters/special/gold-class">Rạp Đặc Biệt</a>
+                                    </li>
+                                    <li class="level1 nav-3-3 last">
+                                        <a class="level1" href="https://www.cgv.vn/default/cinemas/site/process">Rạp sắp mở</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <!-- Search -->
+                <div id="header-search" class="skip-content">
+                    <div class="header-search-left">
+                        <p class="kenhcine">
+                            <a href="https://kenhcine.cgv.vn/" title="Kênh Cine - Tổng hợp tin tức điện ảnh mới nhất" target="_blank">
+                                <img alt="kênh Cine" src="https://www.cgv.vn/media/wysiwyg/2019/AUG/kenhcine.gif"></a>
+                        </p>
+                        <!-- doi link thanh file aspx cua mk -->
+                        <form id="search_mini_form" action="https://www.cgv.vn/default/catalogsearch/result/" method="get">
+                            <div class="input-box" style="display: flex">
+                                <label for="search">Search:</label>
+                                <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="Tìm kiếm" autocomplete="off">
+                                <button type="submit" title="Tìm kiếm" class="button "><span><span>Tìm kiếm</span></span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        <form runat="server" id="form1">
+            <!-- Body -->
+            <asp:ContentPlaceHolder ID="contentBody" runat="server">
+                `
+            </asp:ContentPlaceHolder>
+            <!-- End body -->
+        </form>
+
+
+
+
+
+
+        <div class="footer-cgv-container">
+            <div class="footer">
+                <div class="footer-cgv-policy">
+                    <div class="content-cgv-policy">
+                        <div class="cgv-vietnam">
+                            <h3>CGV Việt Nam</h3>
+                            <ul>
+                                <li><a href="#">Giới Thiệu</a></li>
+                                <li><a href="#">Tiện Ích Online</a></li>
+                                <li><a href="#">Thẻ Quà Tặng</a></li>
+                                <li><a href="#">Tuyển Dụng</a></li>
+                                <li><a href="#">Liên Hệ Quảng Cáo CGV</a></li>
+                            </ul>
+                        </div>
+                        <div class="cgv-policy">
+                            <h3>Điều khoản sử dụng</h3>
+                            <ul>
+                                <li><a href="#">Điều Khoản Chung</a></li>
+                                <li><a href="#">Điều Khoản Giao Dịch</a></li>
+                                <li><a href="#">Chính Sách Thanh Toán</a></li>
+                                <li><a href="#">Chính Sách Bảo Mật</a></li>
+                                <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+                            </ul>
+                        </div>
+                        <div class="cgv-follow-us">
+                            <h3>Kết nối với chúng tôi</h3>
+                            <ul>
+                                <li><a>
+                                    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/z.png" Width="40px" />
+                                </a></li>
+                                <li><a>
+                                    <asp:Image ID="Image2" runat="server" ImageUrl="~/images/f.png" Width="40px" />
+                                </a></li>
+                                <li><a>
+                                    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/i.png" Width="40px" />
+                                </a></li>
+                                <li><a>
+                                    <asp:Image ID="Image4" runat="server" ImageUrl="~/images/y.png" Width="40px" />
+                                </a></li>
+                                <li><a>
+                                    <asp:Image ID="Image5" runat="server" ImageUrl="~/images/l.png" Width="40px" />
+                                </a></li>
+                                <li><a>
+                                    <asp:Image ID="Image6" runat="server" ImageUrl="~/images/logoSaleNoti.png" Width="200px" />
+                                </a></li>
+                            </ul>
+                            <div class="cgv-permision">
+                                <h2><a href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=30278" target="_blank">cgv</a></h2>
+                            </div>
+                        </div>
+                        <div class="customer-cgv">
+                            <h3>Chăm sóc khách hàng</h3>
+                            <h4 style="line-height: 22px;">Hotline: 1900 6017<br>
+                                Giờ làm việc: 8:00 - 22:00 (Tất cả các ngày bao gồm cả Lễ Tết)<br>
+                                Email hỗ trợ: <a href="mailto:hoidap@cgv.vn">hoidap@cgv.vn</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-cgv-address">
+                    <div class="cgv-address-content">
+                        <div class="logo-footer-cgv">&nbsp;</div>
+                        <div class="text-cgv-address">
+                            <h3>CÔNG TY TNHH CJ CGV VIETNAM</h3>
+                            <h4>Giấy CNĐKDN: 0303675393, đăng ký lần đầu ngày 31/7/2008, đăng ký thay đổi lần thứ 5 ngày 14/10/2015, cấp bởi Sở KHĐT thành phố Hồ Chí Minh.</h4>
+                            <h4>Địa Chỉ:&nbsp;Tầng 2, Rivera Park Saigon - Số 7/28 Thành Thái, P.14, Q.10, TPHCM.</h4>
+                            <h4>Hotline: 1900 6017</h4>
+                            <h4>COPYRIGHT 2017 CJ CGV. All RIGHTS RESERVED .</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Facebook Pixel Code -->
+
+        <script>!function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '1644759925761845'); fbq('track', 'ViewContent');</script>
+
+
+        <div id="wishlist_edit_action_container"></div>
+    </div>
+</body>
+</html>
