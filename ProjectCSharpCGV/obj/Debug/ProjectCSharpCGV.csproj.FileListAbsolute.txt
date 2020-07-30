@@ -405,3 +405,4 @@ D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreComp
 D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
 D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
 D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
+D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
