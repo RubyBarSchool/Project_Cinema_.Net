@@ -25,8 +25,8 @@
                                 <div class="ribon position-6"></div>
 
                                 <div class="product-images">
-                                    <a href="DetailMovie.aspx?id=<%= fl.ID %>" class="product-image">
-                                        <img id="product-collection-image-2760" src="images/<%=fl.Image %>" alt="abc">
+                                    <a href="DetailFilm.aspx?id=<%= fl.ID %>" class="product-image">
+                                        <img class="product-collection-image-2760" alt="" src="../../images/<%= fl.Image %>"/>
                                     </a>
 
                                     <div class="movie-technology">
