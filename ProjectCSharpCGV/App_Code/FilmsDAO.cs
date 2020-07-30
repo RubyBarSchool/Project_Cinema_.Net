@@ -44,7 +44,7 @@ namespace ProjectCSharpCGV.App_Code
         public static List<Films> getAllFilmsFutureShowing(bool isclose, DateTime dateStart)
         {
             string sql = "SELECT id,name,image,daoDien,dienVien,ngayKhoiChieu,thoiGian,ngonNgu,idRated,idGenres,idCountry,numberXem FROM dbo.Films" +
-                " WHERE isClose = @close AND ngayKhoiChieu < @date ORDER BY numberXem ASC";
+                " WHERE isClose = @close AND ngayKhoiChieu > @date ORDER BY numberXem ASC";
             SqlParameter[] param = new SqlParameter[]{
                 new SqlParameter("@close",SqlDbType.Bit),
                 new SqlParameter("@date",SqlDbType.DateTime)

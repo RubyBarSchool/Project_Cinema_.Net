@@ -6,18 +6,16 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
-namespace ProjectCSharpCGV.View.Movies
+namespace ProjectCSharpCGV.View.Film
 {
-    public partial class DetailMovie : System.Web.UI.Page
+    public partial class NowShow : System.Web.UI.Page
     {
-        public Films Films;
+        public List<Films> listFilm1;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                int id = Convert.ToInt32(Request.Params["id"]);
-                Films = FilmsDAO.getDetailFilm(id);
+                listFilm1 = FilmsDAO.getAllFilmsNowShowing(false, DateTime.Now);
             }
         }
     }

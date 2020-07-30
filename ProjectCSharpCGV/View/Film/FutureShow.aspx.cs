@@ -7,9 +7,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ProjectCSharpCGV.View.Movies
+namespace ProjectCSharpCGV.View.Film
 {
-    public partial class FutureShowing : System.Web.UI.Page
+    public partial class FutureShow : System.Web.UI.Page
     {
         public List<Films> listFilm;
         protected void Page_Load(object sender, EventArgs e)

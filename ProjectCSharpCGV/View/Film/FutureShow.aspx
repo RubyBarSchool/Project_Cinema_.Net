@@ -1,23 +1,23 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NowShowing.aspx.cs" Inherits="ProjectCSharpCGV.View.Movies.NowShowing" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="FutureShow.aspx.cs" Inherits="ProjectCSharpCGV.View.Film.FutureShow" %>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="plCss" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="plCss" runat="server">
     <link href="../../Content/colobox.css" rel="stylesheet" />
     <link href="../../Content/custom-cgv.css" rel="stylesheet" />
     <link href="../../Content/g-erp-cgv.css" rel="stylesheet" />
     <link href="../../Content/madisonisland.css" rel="stylesheet" />
     <link href="../../Content/style.css" rel="stylesheet" />
 </asp:Content>
-<asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
-    <form runat="server" id="form1">
+<asp:Content ID="Content2" ContentPlaceHolderID="contentBody" runat="server">
+     <form runat="server" id="form1">
+        <!-- code font end here -->
         <div class="main-container col1-layout">
             <div class="main">
                 <div class="col-main">
-                    <div class="page-title category-title">
-                        <h1>Phim Đang Chiếu</h1>
+                     <div class="page-title category-title">
+                        <h1>Phim Sắp Chiếu</h1>
                     </div>
                     <div class="category-products cgv-movies">
                         <ul class="products-grid products-grid--max-4-col first last odd">
-                            <!-- code font end here -->
                             <% foreach (ProjectCSharpCGV.Model.Films fl in listFilm)
                                 {%>
                             <li class="film-lists item last">
@@ -51,7 +51,10 @@
                                         <span class="cgv-info-normal"><%= fl.ReleaseTime %></span>
                                     </div>
                                 </div>
+
                                 <ul class="add-to-links">
+
+
                                     <li>
                                         <asp:Button ID="Button1" runat="server" Text="Mua vé" CssClass="button btn-booking" />
                                     </li>
@@ -64,5 +67,4 @@
             </div>
         </div>
     </form>
-
 </asp:Content>

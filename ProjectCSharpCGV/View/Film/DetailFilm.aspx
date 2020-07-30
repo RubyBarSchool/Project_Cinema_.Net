@@ -1,13 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DetailMovie.aspx.cs" Inherits="ProjectCSharpCGV.View.Movies.DetailMovie" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DetailFilm.aspx.cs" Inherits="ProjectCSharpCGV.View.Film.DetailFilm" %>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="plCss" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="plCss" runat="server">
     <link href="../../Content/colobox.css" rel="stylesheet" />
     <link href="../../Content/custom-cgv.css" rel="stylesheet" />
     <link href="../../Content/g-erp-cgv.css" rel="stylesheet" />
     <link href="../../Content/madisonisland.css" rel="stylesheet" />
     <link href="../../Content/style.css" rel="stylesheet" />
 </asp:Content>
-<asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="contentBody" runat="server">
     <form runat="server" id="form1">
         <div class="main-container col1-layout">
             <div class="main">
@@ -25,7 +25,7 @@
                             <div class="product-img-box">
                                 <div class="product-image product-image-zoom zoom-available">
                                     <div class="product-image-gallery">
-                                        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/<%=Films.Image%>" />
+                                        <img class="product-collection-image-2760" alt="" src="../../images/<%= Films.Image %>"/>
                                     </div>
                                 </div>
                             </div>
@@ -44,10 +44,7 @@
                                     <label>Diễn viên:</label>
                                     <div class="std"><%= Films.Actor %></div>
                                 </div>
-                                <%--<div class="movie-genre movie-info">
-                            <label>Thể loại: </label>
-                            <div class="std"><%= Film.Genresx.Name %></div>
-                        </div>--%>
+
                                 <div class="movie-release movie-info">
                                     <label>Khởi chiếu: </label>
                                     <div class="std"><%= Films.ReleaseTime %></div>

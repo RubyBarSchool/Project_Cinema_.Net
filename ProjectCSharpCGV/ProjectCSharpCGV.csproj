@@ -168,9 +168,9 @@
     <Content Include="View\Booking\ChoiseCinema.aspx" />
     <Content Include="View\Booking\ChooseItemOrCombo.aspx" />
     <Content Include="View\Booking\PayMent.aspx" />
-    <Content Include="View\Movies\DetailMovie.aspx" />
-    <Content Include="View\Movies\FutureShowing.aspx" />
-    <Content Include="View\Movies\NowShowing.aspx" />
+    <Content Include="View\Film\DetailFilm.aspx" />
+    <Content Include="View\Film\FutureShow.aspx" />
+    <Content Include="View\Film\NowShow.aspx" />
     <Content Include="View\Theart\AllTheart.aspx" />
     <Content Include="View\Theart\OpentCommingSoon.aspx" />
     <Content Include="View\Theart\SpecialTheart.aspx" />
@@ -284,26 +284,26 @@
     <Compile Include="View\Booking\PayMent.aspx.designer.cs">
       <DependentUpon>PayMent.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Movies\DetailMovie.aspx.cs">
-      <DependentUpon>DetailMovie.aspx</DependentUpon>
+    <Compile Include="View\Film\DetailFilm.aspx.cs">
+      <DependentUpon>DetailFilm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Movies\DetailMovie.aspx.designer.cs">
-      <DependentUpon>DetailMovie.aspx</DependentUpon>
+    <Compile Include="View\Film\DetailFilm.aspx.designer.cs">
+      <DependentUpon>DetailFilm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Movies\FutureShowing.aspx.cs">
-      <DependentUpon>FutureShowing.aspx</DependentUpon>
+    <Compile Include="View\Film\FutureShow.aspx.cs">
+      <DependentUpon>FutureShow.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Movies\FutureShowing.aspx.designer.cs">
-      <DependentUpon>FutureShowing.aspx</DependentUpon>
+    <Compile Include="View\Film\FutureShow.aspx.designer.cs">
+      <DependentUpon>FutureShow.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Movies\NowShowing.aspx.cs">
-      <DependentUpon>NowShowing.aspx</DependentUpon>
+    <Compile Include="View\Film\NowShow.aspx.cs">
+      <DependentUpon>NowShow.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Movies\NowShowing.aspx.designer.cs">
-      <DependentUpon>NowShowing.aspx</DependentUpon>
+    <Compile Include="View\Film\NowShow.aspx.designer.cs">
+      <DependentUpon>NowShow.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Theart\AllTheart.aspx.cs">
       <DependentUpon>AllTheart.aspx</DependentUpon>
