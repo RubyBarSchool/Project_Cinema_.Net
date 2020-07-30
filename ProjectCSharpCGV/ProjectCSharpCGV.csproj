@@ -178,13 +178,17 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\AccountDAO.cs" />
     <Compile Include="App_Code\CountryADO.cs" />
     <Compile Include="App_Code\DataAccess.cs" />
     <Compile Include="App_Code\FilmsDAO.cs" />
     <Compile Include="App_Code\GenresDAO.cs" />
     <Compile Include="App_Code\RatedDAO.cs" />
+    <Compile Include="App_Code\RegionDAO.cs" />
+    <Compile Include="App_Code\SiteDAO.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CheckValidate\Check.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
