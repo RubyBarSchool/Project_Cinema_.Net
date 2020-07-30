@@ -11,14 +11,19 @@ namespace ProjectCSharpCGV.View.Booking
 {
     public partial class BookingSeat : System.Web.UI.Page
     {
+        public string[] nameRow = new string[] {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "M", "N",
+            "O","P","Q","R","S","T","U","V","W","X","Y","Z"};
         protected void Page_Load(object sender, EventArgs e)
         {
-            loadData();
+            if (!IsPostBack)
+            {
+                loadData();
+            }
+            
         }
         public void loadData()
         {
-            string[] nameRow = new string[] {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "M", "N",
-            "O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+
             DataTable dataGhe = DataAccess.getAllGhe(1, 1, 1, 1);
             DataTable gheDaChon = DataAccess.getgheDaChon();
             int numbermaxCol = Convert.ToInt32(dataGhe.Rows[0]["numberMaxGhe"].ToString());
@@ -98,7 +103,7 @@ namespace ProjectCSharpCGV.View.Booking
 
         protected void rptView_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-
+            Label1.Text = "The " + ((Button)e.CommandSource).Text + " button has just been clicked; <br />";
         }
     }
 }

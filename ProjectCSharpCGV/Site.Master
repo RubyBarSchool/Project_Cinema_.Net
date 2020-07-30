@@ -132,7 +132,7 @@
                         <div class="dropdown-content">
                             <a href="/View/Moives/NowShowing.aspx">Phim Đang Chiếu</a>
                             <a href="/View/Moives/FutureShowing.aspx">Phim Sắp Chiếu</a>
-                        </div>
+                             </div>
                     </div>
 
                     <div class="dropdown">
@@ -166,7 +166,9 @@
 
 
 
-
+                                
+                            
+                       
 
             <!-- Body -->
             <asp:ContentPlaceHolder ID="contentBody" runat="server">

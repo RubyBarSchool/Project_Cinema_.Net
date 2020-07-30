@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NowShowing.aspx.cs" Inherits="ProjectCSharpCGV.View.Movies.NowShowing" %>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="plCss" runat="server">
     <link href="../../Content/colobox.css" rel="stylesheet" />
     <link href="../../Content/custom-cgv.css" rel="stylesheet" />
@@ -8,15 +7,16 @@
     <link href="../../Content/style.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
+    
     <form runat="server" id="form1">
         <div class="main-container col1-layout">
             <div class="main">
                 <div class="col-main">
-                    <div class="page-title category-title">
+                    <div class="page-title category-title" >
                         <h1>Phim Đang Chiếu</h1>
                     </div>
                     <div class="category-products cgv-movies">
-                        <ul class="products-grid products-grid--max-4-col first last odd">
+                        <ul class="products-grid products-grid--max-4-col first last odd" >
                             <!-- code font end here -->
                             <% foreach (ProjectCSharpCGV.Model.Films fl in listFilm)
                                 {%>
@@ -64,5 +64,4 @@
             </div>
         </div>
     </form>
-
 </asp:Content>
