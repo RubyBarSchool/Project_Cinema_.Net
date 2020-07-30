@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectCSharpCGV.View.Movies
+namespace ProjectCSharpCGV.View.Film
 {
 
 
-    public partial class NowShowing
+    public partial class FutureShow
     {
 
         /// <summary>

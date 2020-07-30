@@ -7,9 +7,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ProjectCSharpCGV.View.Movies
+namespace ProjectCSharpCGV.View.Film
 {
-    public partial class DetailMovie : System.Web.UI.Page
+    public partial class DetailFilm : System.Web.UI.Page
     {
         public Films Films;
         protected void Page_Load(object sender, EventArgs e)
