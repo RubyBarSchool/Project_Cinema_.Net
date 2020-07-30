@@ -30,9 +30,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <style>
+     <style>
         .dropbtn {
-            background-color: #F8F9FA;
+            background-color: #FFFFFF;
             color: black;
             padding: 16px;
             font-size: 16px;
@@ -80,14 +80,12 @@
         }
 
         .dropdown:hover .dropbtn {
-            background-color: #F8F9FA;
+            background-color: #FFFFFF;
         }
 
-
-        p {
+        .loginForm {
             text-align: right;
-            color: black;
-            font-size: large;
+            font-size: medium;
         }
 
         #footer {
@@ -103,14 +101,11 @@
     <%--Account--%>
     <div class="page">
         <%-- the a dang ki dang nhap--%>
-        <div>
+        <div class="loginForm">
             <a href="/View/Account/Login.aspx" class="topskip-link skip-account">
-                <span class="label" style="color: black">Đăng nhập</span>
-            </a>
-            <span>/</span>
+                <i class="fa fa-user"></i>Đăng nhập</a>
             <a href="/View/Account/Register.aspx" class="topskip-link skip-account">
-                <span class="label" style="color: black">Đăng ký</span>
-            </a>
+                <i class="fa fa-user"></i>Đăng ký</a>
         </div>
         <header id="header" class="page-header">
             <div class="page-header-container" style="width: 100%">
@@ -118,31 +113,24 @@
                     <img src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo.png" alt="CGV Cinemas" class="large">
                     <img src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo-small.png" alt="CGV Cinemas" class="small">
                 </a>
-                <!-- Navigation -->
+                 <!-- Navigation -->
                 <div id="header-nav" class="skip-content">
-                    <nav id="nav">
-                        <ol class="nav-primary">
-                            <li class="level0 nav-1 first active last parent"><a href="#" class="level0 has-children">Phim</a><ul class="level0">
-                                <li class="level1 nav-1-1 first active"><a href="https://www.cgv.vn/default/movies/now-showing.html" class="level1 ">Phim Đang Chiếu</a></li>
-                                <li class="level1 nav-1-2 last"><a href="https://www.cgv.vn/default/movies/coming-soon-1.html" class="level1 ">Phim Sắp Chiếu</a></li>
-                            </ul>
-                            </li>
-                            <li class="level0 nav-2 parent first last">
-                                <a class="level0 has-children" href="javascript: void(0);">Rạp CGV</a>
-                                <ul class="level0">
-                                    <li class="level1 nav-3-1 last">
-                                        <a class="level1" href="https://www.cgv.vn/default/cinox/site/">Tất Cả Các Rạp</a>
-                                    </li>
-                                    <li class="level1 nav-3-2 last">
-                                        <a class="level1" href="https://www.cgv.vn/default/theaters/special/gold-class">Rạp Đặc Biệt</a>
-                                    </li>
-                                    <li class="level1 nav-3-3 last">
-                                        <a class="level1" href="https://www.cgv.vn/default/cinemas/site/process">Rạp sắp mở</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </nav>
+                    <div class="dropdown">
+                        <button class="dropbtn">Phim</button>
+                        <div class="dropdown-content">
+                            <a href="/View/Account/NowShowing.aspx">Phim Đang Chiếu</a>
+                            <a href="/View/Account/FutureShowing.aspx">Phim Sắp Chiếu</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Rạp CGV</button>
+                        <div class="dropdown-content">
+                            <a href="/View/Account/AllTheart.aspx">Tất Cả Các Rạp</a>
+                            <a href="/View/Account/SpecialTheart.aspx">Rạp Đặc Biệt</a>
+                            <a href="/View/Account/OpentCommingSoon.aspx">Rạp Sắp Mở</a>
+                        </div>
+                    </div>
                 </div>
                 <!-- Search -->
                 <div id="header-search" class="skip-content">
