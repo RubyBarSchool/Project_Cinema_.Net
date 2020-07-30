@@ -12,6 +12,9 @@
         <div class="main-container col1-layout">
             <div class="main">
                 <div class="col-main">
+                    <div class="page-title category-title">
+                        <h1>Phim Đang Chiếu</h1>
+                    </div>
                     <div class="category-products cgv-movies">
                         <ul class="products-grid products-grid--max-4-col first last odd">
                             <!-- code font end here -->
