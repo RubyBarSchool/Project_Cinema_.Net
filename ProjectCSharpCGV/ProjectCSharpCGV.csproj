@@ -112,6 +112,8 @@
     <Content Include="Content\colobox.css" />
     <Content Include="Content\custom-cgv.css" />
     <Content Include="Content\g-erp-cgv.css" />
+    <Content Include="Content\HA1.css" />
+    <Content Include="Content\HADefault.css" />
     <Content Include="Content\madisonisland.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
