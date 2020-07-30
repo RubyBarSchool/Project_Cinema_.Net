@@ -9,7 +9,7 @@
             </HeaderTemplate>
             <ItemTemplate>
                 <tr>
-                    <td><asp:Button runat="server"  Text=<%# Eval("Book") %> /></td>
+                    <td><asp:Button runat="server"  Text=<%# Eval("Col1") %> /></td>
                 </tr>
             </ItemTemplate>
             <FooterTemplate>

@@ -13,7 +13,7 @@ namespace ProjectCSharpCGV.View.Booking
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            loadData();
         }
         public void loadData()
         {
