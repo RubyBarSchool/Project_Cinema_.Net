@@ -304,7 +304,6 @@ C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\D
 C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
 C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
 C:\Users\lenovo\Desktop\insertCGV\Co_Anh\ProjectCSharpCGV\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
-D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
 D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreCompileInputs.cache
 D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
 D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb

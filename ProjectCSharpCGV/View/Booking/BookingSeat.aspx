@@ -3,6 +3,18 @@
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
     <form runat="server" id="form1">
-        <!-- code font end here -->
+        <asp:Repeater ID="rptView" runat="server" OnItemCommand="rptView_ItemCommand">
+            <HeaderTemplate>
+                <table>
+            </HeaderTemplate>
+            <ItemTemplate>
+                <tr>
+                    <td><asp:Button runat="server"  Text=<%# Eval("Book") %> /></td>
+                </tr>
+            </ItemTemplate>
+            <FooterTemplate>
+                </table>
+            </FooterTemplate>
+        </asp:Repeater>
     </form>
 </asp:Content>

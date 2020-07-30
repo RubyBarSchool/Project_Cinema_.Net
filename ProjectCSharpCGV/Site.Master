@@ -30,9 +30,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-     <style>
+    <style>
+        #header {
+            background-color: #FDF7DC;
+            color: black;
+        }
+
         .dropbtn {
-            background-color: #FFFFFF;
+            background-color: #FDF7DC;
             color: black;
             padding: 16px;
             font-size: 16px;
@@ -80,10 +85,13 @@
         }
 
         .dropdown:hover .dropbtn {
-            background-color: #FFFFFF;
+            background-color: #FDF0DC;
         }
 
         .loginForm {
+            margin: 0px;
+            padding: 0px;
+            height: 0px;
             text-align: right;
             font-size: medium;
         }
@@ -102,6 +110,10 @@
     <div class="page">
         <%-- the a dang ki dang nhap--%>
         <div class="loginForm">
+            <%--//cho chữ chạy--%>
+            <marquee width="60%" direction="right" height="100px">
+                    <p style="font-size:30px; color:forestgreen; font-family:'segoe script', tahoma, geneva, verdana, sans-serif">có chắc 10 điểm là đây!!!</p>
+                    </marquee>
             <a href="/View/Account/Login.aspx" class="topskip-link skip-account">
                 <i class="fa fa-user"></i>Đăng nhập</a>
             <a href="/View/Account/Register.aspx" class="topskip-link skip-account">
