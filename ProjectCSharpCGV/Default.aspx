@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ProjectCSharpCGV._Default" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="plCss" runat="server">
+    <link href="Content/HADefault.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
-    <div class="main-container col1-layout">
+    <div class="main-container col1-layout" id="nen">
         <div class="main">
             <div class="col-main">               
                 <div class="slideshow-container">
