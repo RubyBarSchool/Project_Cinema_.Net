@@ -7,29 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectCSharpCGV.View.Theart
+namespace ProjectCSharpCGV.View.Theartxx
 {
 
 
-    public partial class OpentCommingSoon
+    public partial class AllTheart
     {
 
         /// <summary>
-        /// form1 control.
+        /// all control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// ImageHA1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageHA1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm all;
     }
 }

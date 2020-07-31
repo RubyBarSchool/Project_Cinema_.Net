@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectCSharpCGV.View.Account
+namespace ProjectCSharpCGV.View.Accountxx
 {
 
 
-    public partial class Register
+    public partial class HistoryAccount
     {
 
         /// <summary>

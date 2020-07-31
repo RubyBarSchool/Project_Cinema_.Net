@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ProjectCSharpCGV.View.Theart
+namespace ProjectCSharpCGV.View.Theartxx
 {
     public partial class AllTheart : System.Web.UI.Page
     {

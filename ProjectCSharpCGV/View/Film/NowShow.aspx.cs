@@ -11,7 +11,7 @@ namespace ProjectCSharpCGV.View.Movies
 {
     public partial class NowShowing : System.Web.UI.Page
     {
-        public List<Films> listFilm = new List<Films>();
+        public List<Films> listFilm;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)

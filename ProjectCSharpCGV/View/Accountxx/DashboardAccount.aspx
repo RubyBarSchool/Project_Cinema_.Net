@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="HistoryAccount.aspx.cs" Inherits="ProjectCSharpCGV.View.Account.HistoryAccount" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DashboardAccount.aspx.cs" Inherits="ProjectCSharpCGV.View.Accountxx.DashboardAccount" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="plCss" runat="server">
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
