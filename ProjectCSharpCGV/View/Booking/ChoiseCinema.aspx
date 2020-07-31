@@ -17,7 +17,6 @@
                 <td>
                     <a href="BookingSeat.aspx?idrap=<%= ss.Theart_Roomx.Theartx.ID %>&idPhong=<%= ss.Theart_Roomx.Roomx.ID %>&idSlot=<%= ss.Slotsx.ID %>&idFilm=<%= ss.Filmsx.ID %>"><%= ss.Slotsx.Note %></a>
                     <span style="width: 200px"><%= ss.Filmsx.Name %></span><br />
-
                 </td>
             </tr>
             <%} %>

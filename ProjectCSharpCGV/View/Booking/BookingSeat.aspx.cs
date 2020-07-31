@@ -14,22 +14,23 @@ namespace ProjectCSharpCGV.View.Booking
     {
         List<string> abc = new List<string>{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R",
         "S","T","U","V","W","X","Y","Z"};
-         static SlotShow ss;
+        static SlotShow ss;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                int idRap = Convert.ToInt32(Request.Params["idRap"]);
-                int idRoom = Convert.ToInt32(Request.Params["idRoom"]);
-                int idFilms = Convert.ToInt32(Request.Params["idFilms"]);
+                int idRap = Convert.ToInt32(Request.Params["idrap"]);
+                int idRoom = Convert.ToInt32(Request.Params["idPhong"]);
+                int idFilms = Convert.ToInt32(Request.Params["idFilm"]);
                 int idSlots = Convert.ToInt32(Request.Params["idSlot"]);
-                loadData(1, 1, 1, 1);
+                //Session["Money"] = 0.0;
+                //this.Label1.Text = "0";
+                loadData(idRap, idRoom, idFilms, idSlots);
             }
-            this.Label2.Text = ss.Booked;
         }
         public void loadData(int idRap, int idRoom, int idFilms, int idSlot)
         {
-            ss = SlotsShowDAO.getAllSlotShowById(idFilms, idRap, idRoom, idSlot);
+            ss = SlotsShowDAO.getAllSlotShowById(idRap, idRoom, idFilms, idSlot);
             string[] note = ss.Theart_Roomx.Note.Split('|');
             DataTable viewGhe = new DataTable();
             int numbermaxRow = 0;
@@ -38,11 +39,11 @@ namespace ProjectCSharpCGV.View.Booking
                 numbermaxRow += st.NumberSeat;
             }
             numbermaxRow = numbermaxRow / ss.Theart_Roomx.NumberMaxSeat;
-            for (int col = 0; col <= ss.Theart_Roomx.NumberMaxSeat-1; col++)
+            for (int col = 0; col <= ss.Theart_Roomx.NumberMaxSeat - 1; col++)
             {
                 DataColumn colx = new DataColumn(col + "");
                 viewGhe.Columns.Add(colx);
-                DataColumn colCss = new DataColumn("css"+col);
+                DataColumn colCss = new DataColumn("css" + col);
                 viewGhe.Columns.Add(colCss);
             }
             int count = 0;
@@ -63,7 +64,7 @@ namespace ProjectCSharpCGV.View.Booking
                     {
                         int rowXXX = Convert.ToInt32(note[i].Split('-')[0]);
                         int colXXX = Convert.ToInt32(note[i].Split('-')[1]);
-                        if (rowXXX == row + 1 && colXXX == colIndex+1)
+                        if (rowXXX == row + 1 && colXXX == colIndex + 1)
                         {
                             viewGhe.Rows[row][col] = "X";
                             viewGhe.Rows[row][col + 1] = ss.Theart_Roomx.SeatTypes[0].ID;
@@ -83,7 +84,8 @@ namespace ProjectCSharpCGV.View.Booking
                                     viewGhe.Rows[row][col + 1] = 2;
                                     col += 1;
                                 }
-                                else if (ss.Booked.Substring(row * 14 + colIndex, 1).Equals("2")) {
+                                else if (ss.Booked.Substring(row * 14 + colIndex, 1).Equals("2"))
+                                {
                                     viewGhe.Rows[row][col] = abc[row] + (colIndex + 1);
                                     viewGhe.Rows[row][col + 1] = 12;
                                     col += 1;
@@ -110,13 +112,15 @@ namespace ProjectCSharpCGV.View.Booking
             }
             this.rptView.DataSource = viewGhe;
             this.rptView.DataBind();
+            //this.Label1.Text = (float)Session["Money"] + "";
         }
 
         protected void rptView_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
+            
             bool check = false;
             string x = ((Button)e.CommandSource).Text;
-            int indexRow = abc.IndexOf(x.Substring(0, 1))+1;
+            int indexRow = abc.IndexOf(x.Substring(0, 1)) + 1;
             int indexCol = Convert.ToInt32(x.Substring(1));
             int index = (indexRow - 1) * 14 + indexCol;
             string[] note = ss.Theart_Roomx.Note.Split('|');
@@ -126,22 +130,24 @@ namespace ProjectCSharpCGV.View.Booking
                 int rowXXX = Convert.ToInt32(note[i].Split('-')[0]);
                 int colXXX = Convert.ToInt32(note[i].Split('-')[1]);
                 int indexXXX = (rowXXX - 1) * 14 + colXXX;
-                
+
                 if (indexXXX < index)
                 {
                     count++;
                 }
             }
             int indexChoise = index - count;
-            for (int i = 1 ; i < ss.Theart_Roomx.SeatTypes.Count ; i++)
+            for (int i = 1; i < ss.Theart_Roomx.SeatTypes.Count; i++)
             {
                 count = 0;
-                for(int j = 1; j <= i; j++)
+                for (int j = 1; j <= i; j++)
                 {
                     count += ss.Theart_Roomx.SeatTypes[j].NumberSeat;
                 }
                 if (indexChoise <= count)
                 {
+                    //float money = (float)Session["Money"];
+                    //money += ss.Theart_Roomx.SeatTypes[i].Price;
                     if (ss.Theart_Roomx.SeatTypes[i].ID == 6)
                     {
                         check = true;
@@ -154,7 +160,7 @@ namespace ProjectCSharpCGV.View.Booking
             {
                 if (indexCol % 2 == 0)
                 {
-                    if(indexCol != 14)
+                    if (indexCol != 14)
                     {
                         if (ss.Booked[index - 1].Equals('2'))
                         {
@@ -176,7 +182,7 @@ namespace ProjectCSharpCGV.View.Booking
                             book = ss.Booked.Substring(0, index - 2) + "22";
                         }
                     }
-                    
+
                 }
                 else
                 {
@@ -192,7 +198,7 @@ namespace ProjectCSharpCGV.View.Booking
             }
             else
             {
-                if (ss.Booked[index-1].Equals('2'))
+                if (ss.Booked[index - 1].Equals('2'))
                 {
                     book = ss.Booked.Substring(0, index - 1) + "0" + ss.Booked.Substring(index);
                 }
@@ -288,6 +294,7 @@ namespace ProjectCSharpCGV.View.Booking
             }
             this.rptView.DataSource = viewGhe;
             this.rptView.DataBind();
+            //this.Label1.Text = (float)Session["Money"]+"";
         }
     }
 }

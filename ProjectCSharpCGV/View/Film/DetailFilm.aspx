@@ -62,7 +62,7 @@
                             <div class="movie-detail-fb-booking">
                                 <div class="add-to-cart-wrapper ">
                                     <button type="button" title="Mua vé" class="button btn-booking" onclick="Quickbooking('20009200');" >
-                                        <span><span><a href="/View/Booking/ChoiseCinema.aspx">Mua vé</a></span></span>
+                                        <span><span><a href="/View/Booking/ChoiseCinema.aspx?id=<%=Films.ID %>">Mua vé</a></span></span>
                                     </button>
                                 </div>
                             </div>

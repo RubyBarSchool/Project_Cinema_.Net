@@ -26,7 +26,7 @@ namespace ProjectCSharpCGV.View.Accountxx
                 this.drSite.DataSource = SiteDAO.getAllSite();
                 this.drSite.DataTextField = "name";
                 this.drSite.DataValueField = "id";
-                Theart th = re.Thearts;
+                Model.Theart th = re.Thearts;
                 this.drSite.SelectedValue = th.ID.ToString();
                 this.drSite.DataBind();
 

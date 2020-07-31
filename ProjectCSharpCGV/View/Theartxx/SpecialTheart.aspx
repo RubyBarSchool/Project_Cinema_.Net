@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SpecialTheart.aspx.cs" Inherits="ProjectCSharpCGV.View.Theart.SpecialTheart" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SpecialTheart.aspx.cs" Inherits="ProjectCSharpCGV.View.Theartxx.SpecialTheart" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="plCss" runat="server">
     <link href="../../Content/colobox.css" rel="stylesheet" />

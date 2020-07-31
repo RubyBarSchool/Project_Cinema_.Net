@@ -9,7 +9,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 
-namespace ProjectCSharpCGV.View.Theart
+namespace ProjectCSharpCGV.View.Theartxx
 {
     public partial class SpecialTheart : System.Web.UI.Page
     {

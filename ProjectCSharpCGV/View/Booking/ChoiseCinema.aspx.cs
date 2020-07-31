@@ -17,7 +17,8 @@ namespace ProjectCSharpCGV.View.Booking
         {
             if (!IsPostBack)
             {
-                 list = SlotsShowDAO.getAllSlotShow();
+                 int id = Convert.ToInt32(Request.Params["id"]);
+                 list = SlotsShowDAO.getAllSlotShowByIdFilmsInFuture(id);
             }
         }
     }

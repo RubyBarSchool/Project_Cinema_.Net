@@ -55,7 +55,7 @@
                                 <ul class="add-to-links">
                                     <li>
                                         <button type="button" title="Mua vé" class="button btn-booking" onclick="Quickbooking('20009200');">
-                                            <span><span><a href="/View/Booking/ChoiseCinema.aspx">Mua vé</a></span></span>
+                                            <span><span><a href="DetailFilm.aspx?id=<%= fl.ID %>">Mua vé</a></span></span>
                                         </button>
                                     </li>
                                 </ul>

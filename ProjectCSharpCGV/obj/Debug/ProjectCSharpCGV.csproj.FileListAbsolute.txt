@@ -456,4 +456,3 @@ D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\vbc.rsp
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
-D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache

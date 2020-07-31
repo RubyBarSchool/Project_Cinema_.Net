@@ -107,5 +107,32 @@ namespace ProjectCSharpCGV.App_Code
             param[5].Value = ssshow.ShowDate;
             return DataAccess.CUDDataBySQL(sql, param);
         }
+        public static List<SlotShow> getAllSlotShowByIdFilmsInFuture(int idFilm)
+        {
+            string sql = "SELECT idRap,idPhong,idFilms,showDate,booked,statusClose,idSlots FROM dbo.SlotShow WHERE idFilms = @id AND showDate < @date ";
+            List<SlotShow> list = new List<SlotShow>();
+            SqlParameter[] param = new SqlParameter[]{
+                new SqlParameter("@id",SqlDbType.Int),
+                new SqlParameter("@date",SqlDbType.DateTime)
+            };
+            param[0].Value = idFilm;
+            param[1].Value = DateTime.Now;
+            DataTable dt = DataAccess.ReadDataBySQLWithParameter(sql, param);
+            foreach (DataRow dr in dt.Rows)
+            {
+                SlotShow ss = new SlotShow();
+                int idRap = Convert.ToInt32(dr["idRap"].ToString());
+                int idPhong = Convert.ToInt32(dr["idPhong"].ToString());
+                ss.Theart_Roomx = Theart_RoomDAO.getAllRapPhongByID(idRap, idPhong);
+                ss.Filmsx = FilmsDAO.getDetailFilm(Convert.ToInt32(dr["idFilms"].ToString()));
+                ss.ShowDate = Convert.ToDateTime(dr["showDate"].ToString());
+                ss.Booked = dr["booked"].ToString();
+                ss.StatusClose = Convert.ToBoolean(dr["statusClose"].ToString());
+                int idSlots = Convert.ToInt32(dr["idSlots"].ToString());
+                ss.Slotsx = SlotsDAO.getSlotsByID(idSlots);
+                list.Add(ss);
+            }
+            return list;
+        }
     }
 }

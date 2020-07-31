@@ -4,9 +4,6 @@
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
     <form runat="server" id="form1">
-        
-        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label><br />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <asp:Repeater ID="rptView" runat="server" EnableViewState="true" OnItemCommand="rptView_ItemCommand">
             <HeaderTemplate>
                 <table>
@@ -33,6 +30,7 @@
                 </table>
             </FooterTemplate>
         </asp:Repeater>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <asp:GridView ID="GridView1" runat="server"></asp:GridView>
     </form>
 </asp:Content>
