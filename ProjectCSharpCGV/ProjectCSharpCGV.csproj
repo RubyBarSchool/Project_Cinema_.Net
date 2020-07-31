@@ -178,11 +178,17 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\AreaDAO.cs" />
     <Compile Include="App_Code\CountryADO.cs" />
     <Compile Include="App_Code\DataAccess.cs" />
     <Compile Include="App_Code\FilmsDAO.cs" />
     <Compile Include="App_Code\GenresDAO.cs" />
     <Compile Include="App_Code\RatedDAO.cs" />
+    <Compile Include="App_Code\RoomDAO.cs" />
+    <Compile Include="App_Code\SlotsShowDAO.cs" />
+    <Compile Include="App_Code\TheartDAO.cs" />
+    <Compile Include="App_Code\TheartTypeDAO.cs" />
+    <Compile Include="App_Code\Theart_RoomDAO.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Default.aspx.cs">

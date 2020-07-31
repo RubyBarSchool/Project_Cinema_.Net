@@ -29,6 +29,26 @@ namespace ProjectCSharpCGV.App_Code
 
             }
             return r;
+        }      
+
+        public static List<TheaterType> getAlltTheater()
+        {
+            List<TheaterType> list = new List<TheaterType>();
+            string sql = "SELECT * FROM dbo.LoaiRap";
+            DataTable a = DataAccess.ReadDataBySQL(sql);
+            foreach (DataRow dr in a.Rows)
+            {
+                TheaterType r = new TheaterType();
+                r.ID = Convert.ToInt32(dr["id"].ToString());
+                r.Name = dr["name"].ToString();
+                r.Description = dr["Description"].ToString();
+                r.ImageTitle = dr["imageTitle"].ToString();
+                r.ImageView = dr["imageView"].ToString();
+                list.Add(r);
+            }
+            return list;          
         }
     }
+
+
 }

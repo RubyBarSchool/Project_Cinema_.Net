@@ -14,10 +14,10 @@ namespace ProjectCSharpCGV.View.Movies
         public List<Films> listFilm = new List<Films>();
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-            //{
-            //    listFilm = FilmsDAO.getAllFilmsNowShowing(false, DateTime.Now);
-            //}
+            if (!IsPostBack)
+            {
+                listFilm = FilmsDAO.getAllFilmsNowShowing(false, DateTime.Now);
+            }
         }
     }
 }

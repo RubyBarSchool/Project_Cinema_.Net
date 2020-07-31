@@ -55,16 +55,14 @@
                                 </div>
                                 <div class="movie-language movie-info">
                                     <label>Ngôn ngữ: </label>
-                                    <div class="std">
-                                        <%= Films.Language %>
-                                    </div>
+                                    <div class="std"><%= Films.Language %></div>
                                 </div>
                             </div>
 
                             <div class="movie-detail-fb-booking">
                                 <div class="add-to-cart-wrapper ">
-                                    <button type="button" title="Mua vé" class="button btn-booking" onclick="Quickbooking('20009200');">
-                                        <span><span>Mua vé</span></span>
+                                    <button type="button" title="Mua vé" class="button btn-booking" onclick="Quickbooking('20009200');" >
+                                        <span><span><a href="/View/Booking/ChoiseCinema.aspx">Mua vé</a></span></span>
                                     </button>
                                 </div>
                             </div>

@@ -30,7 +30,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <style>
+    <style>    
         #header {
             background-color: #FDF7DC;
             color: black;
@@ -130,8 +130,8 @@
                     <div class="dropdown">
                         <button class="dropbtn">Phim</button>
                         <div class="dropdown-content">
-                            <a href="/View/Moives/NowShowing.aspx">Phim Đang Chiếu</a>
-                            <a href="/View/Moives/FutureShowing.aspx">Phim Sắp Chiếu</a>
+                            <a href="/View/Film/NowShow.aspx">Phim Đang Chiếu</a>
+                            <a href="/View/Film/FutureShow.aspx">Phim Sắp Chiếu</a>
                              </div>
                     </div>
 
@@ -172,7 +172,7 @@
 
             <!-- Body -->
             <asp:ContentPlaceHolder ID="contentBody" runat="server">
-                `
+
             </asp:ContentPlaceHolder>
             <!-- End body -->
 

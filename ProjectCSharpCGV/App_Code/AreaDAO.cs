@@ -26,5 +26,21 @@ namespace ProjectCSharpCGV.App_Code
             }
             return r;
         }
+
+        public static List<Area> getAllArea()
+        {
+            List<Area> list = new List<Area>();
+            string sql = "SELECT * FROM dbo.KhuVuc";
+            DataTable a = DataAccess.ReadDataBySQL(sql);
+            foreach (DataRow dr in a.Rows)
+            {
+                Area ar = new Area();
+                ar.ID = Convert.ToInt32(dr["id"].ToString());
+                ar.Name = dr["name"].ToString();
+                list.Add(ar);
+            }
+            return list;
+
+        }
     }
 }
