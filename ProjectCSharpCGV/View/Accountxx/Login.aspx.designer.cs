@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectCSharpCGV.View.Account
+namespace ProjectCSharpCGV.View.Accountxx
 {
 
 

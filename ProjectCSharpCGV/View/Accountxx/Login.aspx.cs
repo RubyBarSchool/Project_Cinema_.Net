@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ProjectCSharpCGV.View.Account
+namespace ProjectCSharpCGV.View.Accountxx
 {
     public partial class Login : System.Web.UI.Page
     {
@@ -29,8 +29,22 @@ namespace ProjectCSharpCGV.View.Account
                 
                     if (AccountDAO.checkLogin(username, password))
                     {
-                        Response.Redirect("../../Default.aspx");
+                    // Response.Redirect("../../Default.aspx");
+                    Session["account"] = AccountDAO.getAccountByUsernameDetail(username);
+                    if (this.cbRemember.Checked)
+                    {
+                       
+                    
+                        HttpCookie cok = new HttpCookie("username");
+                        cok.Value = username;
+                        Response.Cookies.Add(cok);
+                        HttpCookie cok1 = new HttpCookie("password");
+                        cok.Value = password;
+                        Response.Cookies.Add(cok1);
                     }
+                    // Response.Redirect("AccountDetail.aspx");
+                    Response.Redirect("HistoryAccount.aspx");
+                }
                     else
                     {
                         this.thongBaoNgoai.Text = "Username / Password is not correct!";

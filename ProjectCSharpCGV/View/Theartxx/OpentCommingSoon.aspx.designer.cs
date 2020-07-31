@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectCSharpCGV.View.Theart
+namespace ProjectCSharpCGV.View.Theartxx
 {
 
 

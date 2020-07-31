@@ -1,35 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ProjectCSharpCGV.View.Account.Register" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AccountDetail.aspx.cs" Inherits="ProjectCSharpCGV.View.Accountxx.AccountDetail" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="plCss" runat="server">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
     <form runat="server" id="form1">
         <!-- code font end here -->
-        <div class="container">
-            <h2>Register</h2>
-            <!-- Button to Open the Modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                Click Here!
-            </button>
-            <asp:Label ID="txtThongBao" runat="server" Text="Label"></asp:Label>
-
-            <!-- The Modal -->
-            <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 style="text-align:center;" class="modal-title">Register for me</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                        
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label><br />
+        <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label><br />
                             <br />
                             <asp:TextBox ID="txtName" placeholder="Name" runat="server"></asp:TextBox><br />
                              <br/>
@@ -70,19 +46,8 @@
                              <asp:DropDownList ID="drSite" runat="server"></asp:DropDownList><br />
                             <br />
                             
-                            <asp:Button ID="btRegister" runat="server" OnClick="btRegister_Click" Text="Register" />
-                            <asp:Label ID="thongBao" runat="server" Text="Please enter this form!"></asp:Label>
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
+                            
+   
+ 
     </form>
 </asp:Content>

@@ -114,9 +114,9 @@
             <marquee width="60%" direction="right" height="100px">
                     <p style="font-size:30px; color:forestgreen; font-family:'segoe script', tahoma, geneva, verdana, sans-serif">có chắc 10 điểm là đây!!!</p>
                     </marquee>
-            <a href="/View/Account/Login.aspx" class="topskip-link skip-account">
+            <a href="/View/Accountxx/Login.aspx" class="topskip-link skip-account">
                 <i class="fa fa-user"></i>Đăng nhập</a>
-            <a href="/View/Account/Register.aspx" class="topskip-link skip-account">
+            <a href="/View/Accountxx/Register.aspx" class="topskip-link skip-account">
                 <i class="fa fa-user"></i>Đăng ký</a>
         </div>
         <header id="header" class="page-header">

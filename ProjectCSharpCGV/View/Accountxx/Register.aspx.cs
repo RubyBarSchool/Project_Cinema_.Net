@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using ProjectCSharpCGV.CheckValidate;
-namespace ProjectCSharpCGV.View.Account
+namespace ProjectCSharpCGV.View.Accountxx
 {
     public partial class Register : System.Web.UI.Page
     {
@@ -55,16 +55,16 @@ namespace ProjectCSharpCGV.View.Account
 
                         if (Check.VerifyDOB(dob))
                         {
-                            if (AccountDAO.getAccountByUsername(username))
+                            if (!AccountDAO.getAccountByUsername(username))
                             {
-                                if (!AccountDAO.insertAccount(name, phone, email, username, pass, Convert.ToDateTime(dob), gender, idRegion, idSite))
+                                if (AccountDAO.insertAccount(name, phone, email, username, pass, Convert.ToDateTime(dob), gender, idRegion, idSite,1))
                                 {
-                                    this.txtThongBao.Text = "Login fail!";
+                                    Response.Redirect("../../Default.aspx");
                                 }
                                 else
                                 {
-                                    Response.Redirect("../../Default.aspx");
-
+                                    
+                                    this.txtThongBao.Text = "Login fail!";
                                 }
                             }
                             else
