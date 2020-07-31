@@ -405,7 +405,6 @@ D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CoreComp
 D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csproj.CopyComplete
 D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.dll
 D:\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.pdb
-D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll.config
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\ProjectCSharpCGV.dll
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\ProjectCSharpCGV.pdb
@@ -457,3 +456,4 @@ D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\vbc.exe.config
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\vbc.rsp
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe
 D:\ProjectCShap\ProjectCGVWebForm\ProjectCSharpCGV\bin\roslyn\VBCSCompiler.exe.config
+D:\ProjectCSharp\ProjectCGVWebForm\ProjectCSharpCGV\obj\Debug\ProjectCSharpCGV.csprojAssemblyReference.cache
