@@ -43,7 +43,7 @@ namespace ProjectCSharpCGV.View.Accountxx
                         Response.Cookies.Add(cok1);
                     }
                     // Response.Redirect("AccountDetail.aspx");
-                    Response.Redirect("HistoryAccount.aspx");
+                    Response.Redirect("../Booking/ChoiseCinema.aspx");
                 }
                     else
                     {

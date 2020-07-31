@@ -25,7 +25,6 @@ namespace ProjectCSharpCGV.App_Code
                 f.ID = Convert.ToInt32(dr["id"].ToString());
                 f.Name = dr["name"].ToString();
                 f.Image = dr["image"].ToString();
-                
                 list.Add(f);
             }
             return list;

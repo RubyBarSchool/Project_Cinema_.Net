@@ -109,5 +109,24 @@ namespace ProjectCSharpCGV.App_Code
 
             return ac;
         }
+        public static bool updateAccount(string name, string phone, bool gender, int idKhuVuc , string username)
+        {
+            string sql = " UPDATE dbo.Account SET name= @name ,phone= @phone ,gender= @gender ,idKhuVuc= @idKhuVuc WHERE userName = @username ";
+            SqlParameter[] param = new SqlParameter[]
+            {
+                new SqlParameter("@name",SqlDbType.NVarChar),
+                new SqlParameter("@phone",SqlDbType.NVarChar),
+                new SqlParameter("@gender",SqlDbType.Bit),
+                new SqlParameter("@idKhuVuc",SqlDbType.Int),
+                 new SqlParameter("@username",SqlDbType.NVarChar)
+            };
+            param[0].Value = name;
+            param[1].Value = phone;
+            param[2].Value = gender;
+            param[3].Value = idKhuVuc;
+            param[4].Value = username;        
+            return DataAccess.CUDDataBySQL(sql, param);
+        }
+       
     }
 }

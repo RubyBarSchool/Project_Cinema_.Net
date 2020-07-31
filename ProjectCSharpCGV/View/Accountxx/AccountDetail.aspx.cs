@@ -18,7 +18,7 @@ namespace ProjectCSharpCGV.View.Accountxx
                 Account re = (Account)Session["account"];
                 this.drRegion.DataSource = RegionDAO.getAllRegion();
                 this.drRegion.DataTextField = "name";
-                Area r = re.Areax;
+                 Area r = re.Areax;
                 this.drRegion.DataValueField = "id";
                 this.drRegion.SelectedValue = r.ID.ToString();
                 this.drRegion.DataBind();
@@ -45,6 +45,22 @@ namespace ProjectCSharpCGV.View.Accountxx
                     this.rdFemale.Checked = true;
                 }
                 
+            }
+        }
+
+        protected void btSave_Click(object sender, EventArgs e)
+        {
+            string name = this.txtName.Text;
+            string phone = this.txtPhone.Text;
+            bool gender = true;
+            if (this.rdFemale.Checked) {
+                gender = false;
+            }
+            int idKhuVuc = Convert.ToInt32(this.drRegion.SelectedValue);
+            Account re = (Account)Session["account"];
+            if (AccountDAO.updateAccount(name, phone, gender, idKhuVuc, re.UserName))
+            {
+                Response.Redirect("../../Default.aspx");
             }
         }
     }
