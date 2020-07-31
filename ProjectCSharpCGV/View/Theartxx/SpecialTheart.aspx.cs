@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ProjectCSharpCGV.View.Account
+namespace ProjectCSharpCGV.View.Theartxx
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class SpecialTheart : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

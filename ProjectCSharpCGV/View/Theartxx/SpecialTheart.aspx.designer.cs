@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectCSharpCGV.View.Account
+namespace ProjectCSharpCGV.View.Theartxx
 {
 
 
-    public partial class AccountDetail
+    public partial class SpecialTheart
     {
 
         /// <summary>

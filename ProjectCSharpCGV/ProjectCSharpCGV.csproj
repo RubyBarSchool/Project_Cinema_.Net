@@ -160,11 +160,11 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
-    <Content Include="View\Account\AccountDetail.aspx" />
-    <Content Include="View\Account\DashboardAccount.aspx" />
-    <Content Include="View\Account\HistoryAccount.aspx" />
-    <Content Include="View\Account\Login.aspx" />
-    <Content Include="View\Account\Register.aspx" />
+    <Content Include="View\Accountxx\AccountDetail.aspx" />
+    <Content Include="View\Accountxx\DashboardAccount.aspx" />
+    <Content Include="View\Accountxx\HistoryAccount.aspx" />
+    <Content Include="View\Accountxx\Login.aspx" />
+    <Content Include="View\Accountxx\Register.aspx" />
     <Content Include="View\Booking\BookingSeat.aspx" />
     <Content Include="View\Booking\ChoiseCinema.aspx" />
     <Content Include="View\Booking\ChooseItemOrCombo.aspx" />
@@ -172,21 +172,26 @@
     <Content Include="View\Film\DetailFilm.aspx" />
     <Content Include="View\Film\FutureShow.aspx" />
     <Content Include="View\Film\NowShow.aspx" />
-    <Content Include="View\Theart\AllTheart.aspx" />
-    <Content Include="View\Theart\OpentCommingSoon.aspx" />
-    <Content Include="View\Theart\SpecialTheart.aspx" />
+    <Content Include="View\Theartxx\AllTheart.aspx" />
+    <Content Include="View\Theartxx\OpentCommingSoon.aspx" />
+    <Content Include="View\Theartxx\SpecialTheart.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\AccountDAO.cs" />
     <Compile Include="App_Code\AreaDAO.cs" />
+    <Compile Include="App_Code\BookingDAO.cs" />
     <Compile Include="App_Code\CountryADO.cs" />
     <Compile Include="App_Code\DataAccess.cs" />
     <Compile Include="App_Code\FilmsDAO.cs" />
     <Compile Include="App_Code\GenresDAO.cs" />
+    <Compile Include="App_Code\GroupMemberDAO.cs" />
     <Compile Include="App_Code\RatedDAO.cs" />
+    <Compile Include="App_Code\RegionDAO.cs" />
     <Compile Include="App_Code\RoomDAO.cs" />
     <Compile Include="App_Code\SeatTypeDAO.cs" />
+    <Compile Include="App_Code\SiteDAO.cs" />
     <Compile Include="App_Code\SlotsDAO.cs" />
     <Compile Include="App_Code\SlotsShowDAO.cs" />
     <Compile Include="App_Code\TheartDAO.cs" />
@@ -194,6 +199,7 @@
     <Compile Include="App_Code\Theart_RoomDAO.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CheckValidate\Check.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -230,39 +236,39 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="View\Account\AccountDetail.aspx.cs">
+    <Compile Include="View\Accountxx\AccountDetail.aspx.cs">
       <DependentUpon>AccountDetail.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Account\AccountDetail.aspx.designer.cs">
+    <Compile Include="View\Accountxx\AccountDetail.aspx.designer.cs">
       <DependentUpon>AccountDetail.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Account\DashboardAccount.aspx.cs">
+    <Compile Include="View\Accountxx\DashboardAccount.aspx.cs">
       <DependentUpon>DashboardAccount.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Account\DashboardAccount.aspx.designer.cs">
+    <Compile Include="View\Accountxx\DashboardAccount.aspx.designer.cs">
       <DependentUpon>DashboardAccount.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Account\HistoryAccount.aspx.cs">
+    <Compile Include="View\Accountxx\HistoryAccount.aspx.cs">
       <DependentUpon>HistoryAccount.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Account\HistoryAccount.aspx.designer.cs">
+    <Compile Include="View\Accountxx\HistoryAccount.aspx.designer.cs">
       <DependentUpon>HistoryAccount.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Account\Login.aspx.cs">
+    <Compile Include="View\Accountxx\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Account\Login.aspx.designer.cs">
+    <Compile Include="View\Accountxx\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Account\Register.aspx.cs">
+    <Compile Include="View\Accountxx\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Account\Register.aspx.designer.cs">
+    <Compile Include="View\Accountxx\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Booking\BookingSeat.aspx.cs">
@@ -314,25 +320,25 @@
     <Compile Include="View\Film\NowShow.aspx.designer.cs">
       <DependentUpon>NowShow.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Theart\AllTheart.aspx.cs">
+    <Compile Include="View\Theartxx\AllTheart.aspx.cs">
       <DependentUpon>AllTheart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Theart\AllTheart.aspx.designer.cs">
+    <Compile Include="View\Theartxx\AllTheart.aspx.designer.cs">
       <DependentUpon>AllTheart.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Theart\OpentCommingSoon.aspx.cs">
+    <Compile Include="View\Theartxx\OpentCommingSoon.aspx.cs">
       <DependentUpon>OpentCommingSoon.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Theart\OpentCommingSoon.aspx.designer.cs">
+    <Compile Include="View\Theartxx\OpentCommingSoon.aspx.designer.cs">
       <DependentUpon>OpentCommingSoon.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Theart\SpecialTheart.aspx.cs">
+    <Compile Include="View\Theartxx\SpecialTheart.aspx.cs">
       <DependentUpon>SpecialTheart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\Theart\SpecialTheart.aspx.designer.cs">
+    <Compile Include="View\Theartxx\SpecialTheart.aspx.designer.cs">
       <DependentUpon>SpecialTheart.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
