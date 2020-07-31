@@ -25,16 +25,15 @@
                                 <div class="ribon position-6"></div>
 
                                 <div class="product-images">
-                                    <a href="DetailFilm.aspx?id=<%= fl.ID %>" class="product-image">
+                                    <a href="#" class="product-image">
                                         <img class="product-collection-image-2760" alt="" src="../../images/<%= fl.Image %>"/>
                                     </a>
-
                                     <div class="movie-technology">
                                     </div>
                                 </div>
 
                                 <div class="product-info" style="max-height: none; height: 116px; min-height: 31px;">
-                                    <h2 class="product-name"><a href="#" title="ĐỈNH MÙ SƯƠNG"><%= fl.Name %></a></h2>
+                                    <h2 class="product-name"><a><%= fl.Name %></a></h2>
 
                                     <div class="cgv-movie-info">
                                         <span class="cgv-info-bold">Thể loại: </span>
@@ -51,14 +50,6 @@
                                         <span class="cgv-info-normal"><%= fl.ReleaseTime %></span>
                                     </div>
                                 </div>
-
-                                <ul class="add-to-links">
-
-
-                                    <li>
-                                        <asp:Button ID="Button1" runat="server" Text="Mua vé" CssClass="button btn-booking" />
-                                    </li>
-                                </ul>
                             </li>
                             <%}%>
                         </ul>
