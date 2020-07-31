@@ -4,5 +4,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
     <form runat="server" id="form1">
         <!-- code font end here -->
+        <h3>
+            Total money: 
+        </h3>
     </form>
 </asp:Content>

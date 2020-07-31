@@ -30,7 +30,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <style>    
+    <style>
         #header {
             background-color: #FDF7DC;
             color: black;
@@ -114,26 +114,57 @@
             <marquee width="60%" direction="right" height="100px">
                     <p style="font-size:30px; color:forestgreen; font-family:'segoe script', tahoma, geneva, verdana, sans-serif">Wellcom to Project CGV</p>
                     </marquee>
-            <a href="/View/Accountxx/Login.aspx" class="topskip-link skip-account">
-                <i class="fa fa-user"></i>Đăng nhập</a>
-            <a href="/View/Accountxx/Register.aspx" class="topskip-link skip-account">
-                <i class="fa fa-user"></i>Đăng ký</a>
+
         </div>
+        <!-- Body -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            `
+        </asp:ContentPlaceHolder>
+        <!-- End body -->
         <header id="header" class="page-header">
             <div class="page-header-container" style="width: 100%">
                 <a class="logo" href="/Default.aspx">
                     <img src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo.png" alt="CGV Cinemas" class="large">
                     <img src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo-small.png" alt="CGV Cinemas" class="small">
                 </a>
-                 <!-- Navigation -->
+                <!-- Navigation -->
                 <div id="header-nav" class="skip-content">
                     <div class="dropdown">
                         <button class="dropbtn">Phim</button>
                         <div class="dropdown-content">
-                            <a href="/View/Film/NowShow.aspx">Phim Đang Chiếu</a>
-                            <a href="/View/Film/FutureShow.aspx">Phim Sắp Chiếu</a>
-                             </div>
+                            <a href="/View/Moives/NowShowing.aspx">Phim Đang Chiếu</a>
+                            <a href="/View/Moives/FutureShowing.aspx">Phim Sắp Chiếu</a>
+                        </div>
                     </div>
+                    <% ProjectCSharpCGV.Model.Account ac = (ProjectCSharpCGV.Model.Account)Session["account"];%>
+
+                    <% if (ac != null)
+                        { %>
+                   
+                        <div class="dropdown">
+                            <button class="dropbtn">Hi <%=ac.Name %></button>
+                            <div class="dropdown-content">
+                                <a href="/View/Accountxx/DashboardAccount.aspx">Dashboard Account</a>
+                                <a href="/View/Accountxx/AccountDetail.aspx">Account Detail</a>
+                                <a href="/View/Accountxx/HistoryAccount.aspx">History Account</a>
+                            </div>
+                        </div>
+
+                    <% }
+                        else
+                        { %>
+                    <div class="dropdown">
+                        <button class="dropbtn">User</button>
+                        <div class="dropdown-content">
+                            <a href="/View/Accountxx/Login.aspx" class="topskip-link skip-account">
+                                <i class="fa fa-user"></i>Đăng nhập</a>
+                            <a href="/View/Accountxx/Register.aspx" class="topskip-link skip-account">
+                                <i class="fa fa-user"></i>Đăng ký</a>
+                        </div>
+                    </div>
+
+                    <% } %>
+
 
                     <div class="dropdown">
                         <button class="dropbtn">Rạp CGV</button>
@@ -166,15 +197,15 @@
 
 
 
-                                
-                            
-                       
 
-            <!-- Body -->
-            <asp:ContentPlaceHolder ID="contentBody" runat="server">
 
-            </asp:ContentPlaceHolder>
-            <!-- End body -->
+
+
+        <!-- Body -->
+        <asp:ContentPlaceHolder ID="contentBody" runat="server">
+            `
+        </asp:ContentPlaceHolder>
+        <!-- End body -->
 
 
 

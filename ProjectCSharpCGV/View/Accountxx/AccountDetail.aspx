@@ -5,7 +5,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBody" runat="server">
     <form runat="server" id="form1">
         <!-- code font end here -->
-        <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label><br />
+        <h1 style="text-align:center;" >Detail Account</h1>
+        <div style="text-align:center;">
+
+       
+                            <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label><br />
                             <br />
                             <asp:TextBox ID="txtName" placeholder="Name" runat="server"></asp:TextBox><br />
                              <br/>
@@ -45,9 +49,10 @@
                             <br />
                              <asp:DropDownList ID="drSite" runat="server"></asp:DropDownList><br />
                             <br />
+
+                            <asp:Button ID="btSave" runat="server" OnClick="btSave_Click" Text="Save" />
                             
-                            
-   
+    </div>
  
     </form>
 </asp:Content>
